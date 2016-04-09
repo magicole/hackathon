@@ -1,0 +1,4 @@
+FROM emccode/mars-challenge-controller
+ADD Team-Client.py .
+CMD python Team-Client.py
+
